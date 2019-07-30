@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Loan Visualization</title>
+</head>
+<body>
+    <div>
+        <div id="dashboard_div" class="container">
+            <div class="row">
+                <h3>Google Table Example</h3>
+            </div>
+            <div class="row">
+                <form class="form-inline">
+                    <input id="url" class="form-control" type="text" value="/api/loan/search" /> <button onclick="loadData(window.db.draw(document.getElementById('url').value)); return false;" class="btn btn-primary">Refresh</button>
+                </form>
+            </div>
+            <div class="row">
+                <div id="state_chart" class="col">State</div>
+                <div id="city_chart" class="col">City</div>
+            </div>
+            <div class="row">
+                <div id="table_div" class="col">Table</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
