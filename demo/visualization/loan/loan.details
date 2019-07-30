@@ -1,0 +1,10 @@
+---
+ name: Loan Visualization Demo
+ description: Use Google Visualizations for qbo loan data.
+ authors:
+   - Quandis, Inc.
+ resources:
+   - http://some.url.com/some/file.js
+   - http://other.url.com/other_filename.css
+ normalize_css: no
+ load_type: d
